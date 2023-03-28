@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+.search-btn {
+  border-radius: 0 20px 20px 0 !important;
+  background-color: #222222 !important;
+  width: 64px;
+  height: 40px;
+}
+
+.search-input {
+  border-radius: 20px 0 0 20px !important;
+  width: 540px;
+  height: 40px;
+  border: none;
+  margin-left: 213px;
+}
+
+.mic-icon {
+  background-color: rgb(24, 24, 24) !important;
+  border-radius: 100px;
+}
+
+.yt-btn {
+  padding: 0 !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.profile-icon {
+  border-radius: 50%;
+}
+
+.nav-top li {
+  list-style: none;
+}
+
+.sidebar {
+  width: 240px;
+  height: 100%;
+}
+
+.sidebar li {
+  list-style: none;
+  font-size: 14px;
+  margin-right: 36px;
+}
+
+.second-nav button {
+  background-color: rgb(39, 39, 39);
+  color: #fff !important;
+  border: none;
+  height: 32px !important;
+}
+
+.embed-responsive-item {
+  border-radius: 16px !important;
+}
+
+.videos {
+  margin-top: 42px;
+  margin-left: 56px;
+  margin-right: 56px;
+}
+
+.vid-details {
+  width: 360px;
+}
+
+.vid-title {
+  font-weight: 500;
+  line-height: 22px;
+  width: 288px;
+}
+
+.channel-details {
+  font-size: 14px;
+  color: #a7a7a7;
+  margin-left: 49px;
+}
+.channel-details p {
+  margin-left: 49px;
+}
+
+.channel-logo {
+  margin-right: 13px;
+}
+
+.nav > .nav-item > .active {
+  background-color: rgb(61, 61, 61);
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: red;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: red;
+}
