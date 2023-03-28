@@ -38,6 +38,10 @@ body {
   border-radius: 50%;
 }
 
+.nav-top {
+  background-color: rgb(15, 15, 15);
+}
+
 .nav-top li {
   list-style: none;
 }
