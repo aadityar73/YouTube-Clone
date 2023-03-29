@@ -16,7 +16,7 @@
   <body>
     <div class="container-fluid">
       <!-- navbar -->
-      <div class="row mt-1 sticky-top nav-top">
+      <div class="row mt-1 nav-top">
         <ul class="d-flex align-items-center nav-top">
           <div
             class="col d-flex align-items-center justify-content-start gap-2"
@@ -50,6 +50,7 @@
               </button>
             </li>
 
+            <!-- YT-LOGO -->
             <li class="nav-item yt-logo">
               <a href="#"
                 ><svg
@@ -131,6 +132,7 @@
             </li>
           </div>
 
+          <!-- Search Engine -->
           <div class="col d-flex align-items-center me-2">
             <li class="nav-item search-bar">
               <form class="d-flex" role="search">
@@ -170,6 +172,7 @@
             </li>
           </div>
 
+          <!-- mic- -->
           <div class="col d-flex align-items-center">
             <li class="nav-item">
               <span class="yt-btn mic-btn">
@@ -202,7 +205,7 @@
           </div>
 
           <div
-            class="col d-flex align-items-center justify-content-end gap-4 me-3"
+            class="col d-flex align-items-center justify-content-end gap-3 me-2"
           >
             <li class="nav-item">
               <span class="yt-btn">
@@ -277,7 +280,7 @@
       </div>
 
       <!-- sidebar -->
-      <div class="d-flex">
+      <div class="d-flex gap-3">
         <div class="sidebar">
           <ul class="nav nav-pills flex-column">
             <li class="nav-item">
@@ -311,7 +314,7 @@
                     </g>
                   </svg>
                 </span>
-                <span>Home</span>
+                <span class="home-btn">Home</span>
               </a>
             </li>
             <li class="nav-item">
@@ -595,6 +598,8 @@
               </a>
             </li>
           </ul>
+
+          <!-- Subscriptions -->
           <ul class="nav nav-pills flex-column">
             <li class="nav-item text-light fs-6 pt-3 ps-3 pb-1">
               Subscriptions
@@ -715,22 +720,12 @@
           </ul>
         </div>
 
-        <!-- 2nd navbar -->
-        <!-- <div class="row mt-1">
-        <ul class="d-flex align-items-center nav-top">
-          <div
-            class="col d-flex align-items-center justify-content-start gap-2"
-          >
-            <li class="nav-item">All</li>
-            <button class="btn">All</button>
-          </div>
-        </ul>
-      </div> -->
         <div class="main-pg">
-          <div class="second-nav">
-            <ul class="nav d-flex gap-2">
+          <!-- 2nd navbar -->
+          <div class="second-nav pb-3">
+            <ul class="nav d-flex gap-3">
               <li class="nav-item">
-                <button class="btn d-flex align-items-center">
+                <button class="btn active d-flex align-items-center">
                   <span>All</span>
                 </button>
               </li>
@@ -756,12 +751,12 @@
               </li>
               <li class="nav-item">
                 <button class="btn d-flex align-items-center">
-                  <span>Raftaar</span>
+                  <span class="bold-text">Naruto</span>
                 </button>
               </li>
               <li class="nav-item">
                 <button class="btn d-flex align-items-center">
-                  <span>Comedy</span>
+                  <span class="bold-text">Comedy</span>
                 </button>
               </li>
               <li class="nav-item">
@@ -786,12 +781,7 @@
               </li>
               <li class="nav-item">
                 <button class="btn d-flex align-items-center">
-                  <span>Gadgets</span>
-                </button>
-              </li>
-              <li class="nav-item">
-                <button class="btn d-flex align-items-center">
-                  <span>New to you</span>
+                  <span>Web Development</span>
                 </button>
               </li>
             </ul>
@@ -800,198 +790,212 @@
           <!-- videos -->
           <div class="videos">
             <div class="row">
-              <div class="embed-responsive d-flex">
-                <div class="col me-1">
+              <div class="d-flex">
+                <!-- first column -->
+                <div class="col me-3">
                   <div class="vid mb-5">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/EulkokR0qiw"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/VDrO044VHpY"
+                      target="_blank"
                     >
-                    </iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/vJEsALWnQIwPZ2oaVbFWPu1n4L0CDkHpAdGJ-KBPFsxM9hsMsvExFK1mnCGUrMzfC67XPVThmQ=s68-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >Sheikh Chilli | Raftaar | Straight Up Punjab</span
-                        >
-                      </span>
-
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">Sony Music India </span>
-                        <p class="vid-time">3.5M views 3 years ago</p>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="vid">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/3Su_ydENa2w"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    >
-                    </iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/ytc/AL5GRJUiCEH5xY6lOUspviNt97-vJKXNFJLMegcCHsnuJpQ=s88-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >KUNAL KAMRA | STAND UP COMEDY 2019</span
-                        >
-                      </span>
-
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">Kunal Kamra</span>
-                        <p class="vid-time">24M views 3 years ago</p>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div class="col me-1">
-                  <div class="vid mb-5">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/cY5ogUIkPLQ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/ytc/AL5GRJWXFggYQHAOG1s-ibnvzcw15leDIFXDBodaHoup=s88-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >The Fourth Hokage's Death Match | Minato VS Tobi
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/VDrO044VHpY/maxresdefault.jpg"
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/ytc/AL5GRJUaf2Zjn33GELDEhSwol9qk-vVJ52-C8i1UPsZj-9k=s88-c-k-c0x00ffffff-no-rj-mo"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >Dooriyan - Dino James ft. Kaprila [Official Music
+                            Video]</span
+                          >
                         </span>
-                      </span>
 
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">Looking Today</span>
-                        <p class="vid-time">1.2M views 4 years ago</p>
-                      </span>
-                    </div>
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">Dino James</span>
+                          <p class="vid-time">74M views 3 years ago</p>
+                        </span>
+                      </div>
+                    </a>
                   </div>
-
                   <div class="vid">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/mrTbs7ukMJw"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/3Su_ydENa2w"
+                      target="_blank"
                     >
-                    </iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/G05QiYlOU6xj5V9weBE2MpHkF4yYRGqgIJ6Lwp5YuVRHh148erDvgo8m8mbZAkXPTnKzPPa8Gg=s88-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >TSM Entity WE ARE READY....again - PMPL 2020
-                          Teaser</span
-                        >
-                      </span>
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/3Su_ydENa2w/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDb7DKbDTWkt3LgwiDKmNoFHCqLsA"
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/ytc/AL5GRJUiCEH5xY6lOUspviNt97-vJKXNFJLMegcCHsnuJpQ=s88-c-k-c0x00ffffff-no-rj"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >KUNAL KAMRA | STAND UP COMEDY 2019</span
+                          >
+                        </span>
 
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">TSM India</span>
-                        <p class="vid-time">490K views 2 years ago</p>
-                      </span>
-                    </div>
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">Kunal Kamra</span>
+                          <p class="vid-time">24M views 3 years ago</p>
+                        </span>
+                      </div>
+                    </a>
                   </div>
                 </div>
-                <div class="col me-1">
-                  <div class="vid mb-5">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/q4sYlXILiQQ"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/Uua-sDZCxzAO6BpTear-IfPqSuCgfv6MY1i1VsigjSf1FU1PmBUGSH_mKJT1w5lD2VUCWjpoDug=s68-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >Mumbai Meri Jaan Video - IPL 2023 | Mumbai
-                          Indians</span
-                        >
-                      </span>
 
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">Mumbai Indians</span>
-                        <p class="vid-time">119K views 3 days ago</p>
-                      </span>
-                    </div>
+                <!-- second column -->
+                <div class="col me-3">
+                  <div class="vid mb-5">
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/C0D8lLRyu3s"
+                      target="_blank"
+                    >
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/C0D8lLRyu3s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg=="
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/D2kzREp7POrFPj2BBZHd2kfHDgkojOj3OO9zfRyQ-bhk-46DwfQ_KlcBQu2aWlOKQwjZDVVReBc=s88-c-k-c0x00ffffff-no-rj"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >Minato vs Tobi (Obito) | FULL FIGHT [English Dub]
+                          </span>
+                        </span>
+
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">Crave Uzumaki</span>
+                          <p class="vid-time">1.2M views 2 months ago</p>
+                        </span>
+                      </div>
+                    </a>
                   </div>
                   <div class="vid">
-                    <iframe
-                      class="embed-responsive-item"
-                      width="360"
-                      height="203"
-                      src="https://www.youtube-nocookie.com/embed/ijE2MMtzkHg"
-                      title="YouTube video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowfullscreen
-                    ></iframe>
-                    <div class="vid-details mt-2">
-                      <span class="d-flex">
-                        <img
-                          src="https://yt3.ggpht.com/o0CmrqgNg9UCUzyVOly17JqzrpbK2NyOpL5_QfdFJ9sIwxLd4VZGwSnLo2Et75avdGKOQ4v0NpI=s88-c-k-c0x00ffffff-no-rj"
-                          class="profile-icon channel-logo"
-                          width="36px"
-                          height="36px"
-                        />
-                        <span class="vid-title text-light fs-6 mb-1"
-                          >AFSANAY - Young Stunners | Talhah Yunus | Talha Anjum
-                          | Prod. By Jokhay (Official Music Video)</span
-                        >
-                      </span>
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/mrTbs7ukMJw"
+                      target="_blank"
+                    >
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/mrTbs7ukMJw/maxresdefault.jpg"
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/G05QiYlOU6xj5V9weBE2MpHkF4yYRGqgIJ6Lwp5YuVRHh148erDvgo8m8mbZAkXPTnKzPPa8Gg=s88-c-k-c0x00ffffff-no-rj"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >TSM Entity WE ARE READY....again - PMPL 2020
+                            Teaser</span
+                          >
+                        </span>
 
-                      <span class="channel-details text-secondary">
-                        <span class="channel-name">Young Stunners</span>
-                        <p class="vid-time">26M views 2 years ago</p>
-                      </span>
-                    </div>
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">TSM India</span>
+                          <p class="vid-time">490K views 2 years ago</p>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+
+                <!-- third column -->
+                <div class="col me-1">
+                  <div class="vid mb-5">
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/q4sYlXILiQQ"
+                      target="_blank"
+                    >
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/q4sYlXILiQQ/maxresdefault.jpg"
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/Uua-sDZCxzAO6BpTear-IfPqSuCgfv6MY1i1VsigjSf1FU1PmBUGSH_mKJT1w5lD2VUCWjpoDug=s68-c-k-c0x00ffffff-no-rj"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >Mumbai Meri Jaan Video - IPL 2023 | Mumbai
+                            Indians</span
+                          >
+                        </span>
+
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">Mumbai Indians</span>
+                          <p class="vid-time">126K views 4 days ago</p>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="vid">
+                    <a
+                      class="vid-link"
+                      href="https://youtu.be/S5FyS7tQuUw"
+                      target="_blank"
+                    >
+                      <img
+                        class="thumbnail"
+                        src="https://i.ytimg.com/vi/S5FyS7tQuUw/maxresdefault.jpg"
+                        width="360"
+                        height="203"
+                      />
+                      <div class="vid-details mt-2">
+                        <span class="d-flex">
+                          <img
+                            src="https://yt3.ggpht.com/ytc/AL5GRJXjXiwZeDrqvcm5zqWRFJNt4OIH9WO-unvxTk1YEQ=s88-c-k-c0x00ffffff-no-rj"
+                            class="profile-icon channel-logo"
+                            width="36px"
+                            height="36px"
+                          />
+                          <span class="vid-title text-light fs-6 mb-1"
+                            >Coke Studio | Season 14 | Phir Milenge | Faisal
+                            Kapadia x Young Stunners</span
+                          >
+                        </span>
+
+                        <span class="channel-details text-secondary">
+                          <span class="channel-name">Coke Studio</span>
+                          <p class="vid-time">15M views 1 year ago</p>
+                        </span>
+                      </div>
+                    </a>
                   </div>
                 </div>
               </div>

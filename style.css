@@ -6,13 +6,22 @@
 
 body {
   background-color: rgb(15, 15, 15);
+  font-family: Roboto, Arial, sans-serif;
 }
 
-.search-btn {
-  border-radius: 0 20px 20px 0 !important;
-  background-color: #222222 !important;
-  width: 64px;
-  height: 40px;
+.profile-icon {
+  border-radius: 50%;
+}
+
+/* Navbar */
+.nav-top {
+  background-color: rgb(15, 15, 15);
+  position: sticky;
+  top: 4px;
+}
+
+.nav-top li {
+  list-style: none;
 }
 
 .search-input {
@@ -23,9 +32,11 @@ body {
   margin-left: 213px;
 }
 
-.mic-icon {
-  background-color: rgb(24, 24, 24) !important;
-  border-radius: 100px;
+.search-btn {
+  border-radius: 0 20px 20px 0 !important;
+  background-color: #222222 !important;
+  width: 64px;
+  height: 40px;
 }
 
 .yt-btn {
@@ -34,21 +45,16 @@ body {
   cursor: pointer;
 }
 
-.profile-icon {
-  border-radius: 50%;
+.mic-icon {
+  background-color: rgb(24, 24, 24) !important;
+  border-radius: 100px;
 }
 
-.nav-top {
-  background-color: rgb(15, 15, 15);
-}
-
-.nav-top li {
-  list-style: none;
-}
-
+/* Sidebar */
 .sidebar {
   width: 240px;
   height: 100%;
+  position: fixed;
 }
 
 .sidebar li {
@@ -57,21 +63,55 @@ body {
   margin-right: 36px;
 }
 
+.nav > .nav-item > .active {
+  background-color: rgb(39, 39, 39);
+  border-radius: 10px;
+}
+
+.home-btn {
+  font-weight: 500;
+}
+
+/* Second Navbar */
+.second-nav {
+  margin-left: 256px;
+  position: sticky;
+  top: 66px;
+  background-color: rgb(15, 15, 15);
+}
+
 .second-nav button {
   background-color: rgb(39, 39, 39);
   color: #fff !important;
   border: none;
   height: 32px !important;
+  padding: 0 12.5px;
+  border-radius: 8px;
 }
 
-.embed-responsive-item {
-  border-radius: 16px !important;
+.second-nav > .nav > .nav-item > .active {
+  background-color: rgb(241, 241, 241);
+  color: rgb(15, 15, 15) !important;
 }
 
+.second-nav span {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* Videos */
 .videos {
-  margin-top: 42px;
-  margin-left: 56px;
+  margin-top: 30px;
+  margin-left: 312px;
   margin-right: 56px;
+}
+
+.vid-link {
+  text-decoration: none;
+}
+
+.thumbnail {
+  border-radius: 16px !important;
 }
 
 .vid-details {
@@ -89,30 +129,11 @@ body {
   color: #a7a7a7;
   margin-left: 49px;
 }
+
 .channel-details p {
   margin-left: 49px;
 }
 
 .channel-logo {
   margin-right: 13px;
-}
-
-.nav > .nav-item > .active {
-  background-color: rgb(61, 61, 61);
-}
-
-::placeholder {
-  /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: red;
-  opacity: 1; /* Firefox */
-}
-
-:-ms-input-placeholder {
-  /* Internet Explorer 10-11 */
-  color: red;
-}
-
-::-ms-input-placeholder {
-  /* Microsoft Edge */
-  color: red;
 }
