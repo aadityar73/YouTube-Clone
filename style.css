@@ -25,11 +25,22 @@ body {
 }
 
 .search-input {
-  border-radius: 20px 0 0 20px !important;
   width: 540px;
   height: 40px;
-  border: none;
   margin-left: 213px;
+  background-color: rgb(18, 18, 18) !important;
+  border: 0.1px solid rgb(48, 48, 48) !important;
+  border-radius: 20px 0 0 20px !important;
+}
+
+.search-input::placeholder {
+  color: rgb(136, 136, 136) !important;
+  padding-left: 2px;
+}
+
+.search-input:focus {
+  border-color: rgba(31, 143, 255, 0.867) !important;
+  box-shadow: unset !important;
 }
 
 .search-btn {
